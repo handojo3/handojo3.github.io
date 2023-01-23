@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <title> Ethan Handojo </title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/ad5a6b0755.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    </head>
+    <body>
+        <div id = "header">
+            <div class = "container">
+                <nav>
+                    <h2> Ethan Handojo </h2>
+                    <ul>
+                        <li><a href = "#homepage"> Home </a></li>
+                        <li><a href = "#about"> About </a></li>
+                        <li><a href = "#projects"> Projects </a></li>
+                    </ul>
+                    <button type = "button"><a href = "#contact">Contact Me</a></button>
+                </nav>
+                <img class = "logo" src = "profile.png"></button>
+                <!-- target = "_blank" makes link go to another tab -->
+                <div class = "icons">
+                    <a href = "https://www.facebook.com/ethan.handojo" target = "_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href = "https://www.instagram.com/ethanhandojo/" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href = "https://github.com/handojo3" target = "_blank" ><i class="fa-brands fa-github"></i></a>
+                    <a href = "https://www.linkedin.com/in/ethan-handojo-7a49251b4/" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class = "intro">
+                    <div class = "text-1"> GREETINGS! I'M ETHAN</div>
+                    <div class = "text-2">
+                        <div class = "text first"> Curious <span class = "animation"></span></div>
+                    </div>
+                    <script>
+                        var typed = new Typed(".animation", {
+                            strings: ["Student", "Software Developer", "Data Scientist"],
+                            typeSpeed: 100,
+                            backSpeed: 100,
+                            loop: true
+                    })
+                    </script>
+                </div>
+                <a href = "EthanHandojo_Resume.pdf" target = "_blank" download = "EthanHandojo_Resume.pdf" ><button type = "button">Get Resume </button> </a>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div id = "about">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "about-col-1">
+                        <img src = "Screenshot_20230105_175010_BeReal.jpg">
+                    </div>
+                    <div class = "about-col-2">
+                        <h1 class = "subtitle">About Me</h1>
+
+                        <p>Sophomore pursuing a Bachelor of Science in Statistics and Computer Science from the University of Illinois at Urbana-Champaign.
+                        Interested in Software Engineering/Development, Data Science, Artificial Intelligence, and Statistics. Always looking for new experiences and challenges.</p>
+
+                        <div class = "tab-titles">
+                            <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                            <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                            <p class = "tab-links" onclick = "opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id = "skills">
+                            <ul> 
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>R</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "experience">
+                            <ul>
+                                <li><span> June 2022 - Dec 2022</span><br> Front-End Developer Intern at Edugion</li>
+                                <li><span> May 2020 - Aug 2020 </span><br> Data Science Intern at Omni Navitas</li>
+                            </ul>
+                        </div>
+
+                        <div class = "tab-contents" id = "education">
+                            <ul>
+                                <li><span> Aug 2021 - Current </span><br>Student at the University of Illinois at Urbana-Champaign</li>
+                                <li><span> 2017 - 2021</span><br> Student at Acton Boxborough Regional High School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            // Puts the red underline when press on tabs
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <!-- Project Section -->
+    <div id = "projects">
+        <div class = "container">
+            <h1 class = "sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class = "work">
+                    <img src = "Copy of Website_Image.jpg" class = "logo1">
+                    <div class = "layer">
+                        <h3>College2NBA</h3>
+                        <p>Develped a Python script that ran a logistic regression model on 14 years of NCAA College Player Data to predict players' probabilities of making the NBA</p>
+                        <a href = "https://github.com/handojo3/College2NBA" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class = "work">
+                    <img src = "1591109250860.jpg" class = "logo2">
+                    <div class = "layer">
+                        <h3>Edugion</h3>
+                        <p>Revolutionizing the Job Seeking Process by developing Edugion's Job Portal Site using HTML, CSS, JavaScript</p>
+                        <a href = "https://github.com/handojo3/Edugion" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Contact Section -->
+
+    <div id = "contact">
+        <div class = "container">
+            <div class = "contact-content">
+                <h1>Contact Me</h1>
+                <form name = "submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder = "Your Name" required>
+                    <input type = "email" name = "email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "8" placeholder = "Your Message" required></textarea>
+                    <button type = "Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw1vB1jh2cNO0xIGdjpO_ffDBWipYjSQubJl_5FzmBbHAjRA0S0PdsMA7GZdlT_N-Mlow/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+    </body>
+</html>
