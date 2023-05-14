@@ -1,6 +1,3 @@
-
-Personal Website
-
 Welcome to my personal website repository! This project showcases my skills in HTML, CSS, and JavaScript to create an interactive and visually appealing website. This website serves as a platform for me to share information about myself, my experiences, and my skillset.
 
 Table of Contents: 
