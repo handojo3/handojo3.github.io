@@ -8,11 +8,12 @@ Table of Contents:
 4. Experience: A summary of my professional experience and past roles.
 5. Contact: A contact form and my social media handles for visitors to get in touch with me.
 Demo
+
 Check out the live demo of my personal website at https://handojo3.github.io/
 
-Technologies Used
-HTML: Structuring the website's content.
-CSS: Styling and layout of the website.
-JavaScript: Adding interactivity and dynamic elements.
+Technologies Used:
+- HTML: Structuring the website's content.
+- CSS: Styling and layout of the website.
+- JavaScript: Adding interactivity and dynamic elements.
 
 Thank you for visiting my personal website repository. I hope you find it informative and visually appealing. If you have any questions or would like to connect, please don't hesitate to reach out through the contact form or my social media handles provided on the website.
