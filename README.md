@@ -16,4 +16,4 @@ Technologies Used:
 - CSS: Styling and layout of the website.
 - JavaScript: Adding interactivity and dynamic elements.
 
-Thank you for visiting my personal website repository. I hope you find it informative and visually appealing. If you have any questions or would like to connect, please don't hesitate to reach out through the contact form or my social media handles provided on the website.
+Thank you for visiting my personal website repository. I hope you find it informative and visually appealing. If you have any questions or would like to view my resume, please don't hesitate to reach out through the contact form or my social media handles provided on the website.
