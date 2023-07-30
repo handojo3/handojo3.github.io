@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-image: url("Images/background.webp");
+    background-image: url("Images/background.webp"); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -279,7 +279,7 @@ button {
 }
 
 .work img {
-    height: 90%;
+    height: 150%;
     width: 90%;
     border-radius: 10px;
     display: block;
